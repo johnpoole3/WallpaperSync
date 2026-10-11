@@ -1,0 +1,106 @@
+﻿==============================================================================
+
+General OS & Environment Exclusions
+
+==============================================================================
+
+Windows image file caches
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+Mac directory attributes
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Temp and Log files
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+==============================================================================
+
+Visual Studio Exclusions
+
+==============================================================================
+
+User-specific files
+
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+Visual Studio folder (workspace state)
+
+.vs/
+
+Build results
+
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+Visual Studio Code (if used alongside VS)
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+NuGet Packages
+
+*.nupkg
+
+The packages folder can be ignored because of Package Restore
+
+*/[Pp]ackages/
+
+except build/, which is used as an MSBuild target.
+
+!/[Pp]ackages/build/
+
+Uncomment if necessary however generally it will be regenerated when building
+
+#!/[Pp]ackages/repositories.config
+
+Testing
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+
+ReSharper / JetBrains Rider
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+Node (often used in web projects within VS)
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+/.idea/
